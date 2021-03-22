@@ -1,0 +1,85 @@
+body {
+  font-family: 'Varela Round', sans-serif ;
+  color: #625772;
+  background-color: #FEFAEC;
+  /* font-family: 'Reenie Beanie', cursive; */
+}
+
+
+h1 {
+  margin: 0 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.colored-section {
+  background-color: #625772;
+  color:#FEFAEC;
+  padding: 100px 100px;
+}
+
+.greeting{
+  color: #FEFAEC;
+  text-align: right;
+  /* background-color: #625772; */
+  font-size: 130px;
+  padding: 150px 100px 0;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 0.8;
+  font-weight: 900;
+}
+
+.navbar {
+  background-color: #FEFAEC;
+  padding: 0 100px 10px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: #625772 !important;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.nav-link:hover {
+  background-color: #625772;
+  color: #FEFAEC !important;
+}
+
+/* Need to fix this for the toggler */
+.navbar-toggler-icon{
+  background-color: #625772 !important;
+}
+
+.title {
+  background-color: #FEFAEC;
+  color: #625772;
+  padding: 30px 100px 0;
+}
+
+.white-section {
+  color: #625772;
+  background-color: #FEFAEC;
+  padding: 100px 100px;
+}
+
+
+/* Images */
+
+.jumbotron {
+  background-image: url('../img/background02.png');
+  background-size: cover;
+  /* height: 764px; */
+  height: 790px;
+}
+
+.my-image {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
