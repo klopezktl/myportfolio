@@ -24,7 +24,7 @@
 
 <body>
   <!-- Title page -->
-  <section class="jumbotron">
+  <section id="home" class="jumbotron">
     <div class="title">
       <h1>KIM</h1>
     </div>
@@ -38,22 +38,22 @@
       <div class="justify-content-center collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="">Home</a>
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Introduction</a>
+            <a class="nav-link" href="#introduction">Introduction</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Experience</a>
+            <a class="nav-link" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Education</a>
+            <a class="nav-link" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -67,7 +67,7 @@
   </section>
 
   <!-- Introduction -->
-  <section class="colored-section introduction">
+  <section id="introduction" class="colored-section introduction">
     <div class="container-fluid">
       <div class="row">
         <div class="introduction-container col-lg-4">
@@ -90,12 +90,12 @@
     </div>
   </section>
 
-  <section class="white-section work-history">
+  <section id="experience" class="white-section work-history">
     <h2>WORK HISTORY</h2>
     <div class="container-fluid">
       <div class="row">
         <div class="experience-company col-lg-4">
-          <h3><Texas Instruments</h3>
+          <h3>Texas Instruments</h3>
           <p>July 2019 - Present</p>
         </div>
         <div class="experience-details col-lg-8">
@@ -115,62 +115,137 @@
 
   </div>
 
-  <section class="colored-section skills">
+  <section id="skills" class="colored-section skills">
     <h2>Skills</h2>
-    <h3>Languages</h3>
-    <ul>
-      <li>
-        <span>Python</span>
-        <span>***--</span>
-      </li>
-      <li>
-        <span>SQL</span>
-        <span>***---</span>
-      </li>
-      <li>
-        <span>Java</span>
-        <span>**---</span>
-      </li>
-      <li>
-        <span>Scripting language</span>
-        <span>**---</span>
-      </li>
-      <li>
-        <span>HTML, CSS, Javascript</span>
-        <span>*----</span>
-      </li>
-      <li>
-        <span>PHP, Node.js</span>
-        <span>*-----</span>
-      </li>
-    </ul>
 
-    <h3>Technologies</h3>
-    <ul>
-      <li>
-        <span>Spring Framework</span>
-        <span>**---</span>
-      </li>
-    </ul>
+    <div class="container-fluid">
+      <div class="row">
 
-    <h3>Tools</h3>
-    <ul>
-      <li>
-        <span>Git</span>
-        <span>***--</span>
-      </li>
-      <li>
-        <span>Jenkins</span>
-        <span>***--</span>
-      </li>
-      <li>
-        <span>CVS</span>
-        <span>**---</span>
-      </li>
-    </ul>
+        <!-- Languages -->
+        <div class="skill-type col-lg-6">
+          <h3>Languages</h3>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="skill-name col-sm-6">
+                <p>Python</p>
+                <p>SQL</p>
+                <p>Java</p>
+                <p>Scripting Language</p>
+                <p>HTML, CSS, Javascript</p>
+                <p>PHP, Node.js</p>
+              </div>
+              <div class="skill-rate col-sm-6">
+                <p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </p>
+                <p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </p>
+                <p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </p>
+                <p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </p>
+                <p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </p>
+                <p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technologies and Tools -->
+        <div class="skill-type col-lg-6">
+
+          <!-- Technologies -->
+          <h3>Technologies</h3>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="skill-name col-lg-6">
+                <p>Spring Framework</p>
+              </div>
+              <div class="skill-rate col-lg-6">
+                <p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Technologies -->
+          <h3>Tools</h3>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="skill-name col-lg-6">
+                <p>Git</p>
+                <p>Jenkins</p>
+                <p>CVS</p>
+              </div>
+              <div class="skill-rate col-lg-6">
+                <p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </p>
+                <p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </p>
+                <p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
   </section>
 
-  <section class="white-section education">
+  <section id="education" class="white-section education">
     <h2>Education</h2>
     <div class="container-fluid">
       <div class="row">
@@ -191,7 +266,7 @@
       </div>
     </section>
 
-  <div class="colored-section about-me">
+  <div id="contact" class="colored-section about-me">
     <h2>More about me</h2>
     <h3>July 2019</h3>
     <h3>Bachelor of Science in Information Technology</h3>
@@ -204,10 +279,9 @@
   </div>
 
   <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/angela-yu-963a584b/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/yu_angela">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p class="copyright">© 2018 Angela Yu @ The App Brewery.</p>
+    <a class="footer-link" href="https://www.linkedin.com/in/kimberly-lopez-a61bb2207">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/klopezktl">Github</a>
+    <p class="copyright">© 2021 by Kimberly Lopez</p>
   </div>
 
 </body>

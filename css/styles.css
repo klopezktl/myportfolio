@@ -30,6 +30,11 @@ h3 {
   font-weight: bolder;
 }
 
+.bottom-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
 .colored-section {
   background-color: #625772;
   color:#FEFAEC;
@@ -38,6 +43,10 @@ h3 {
 
 .details {
   text-align: center;
+}
+
+.fas {
+  color: #A9EEE6;
 }
 
 .greeting{
@@ -81,6 +90,19 @@ h3 {
 /* Need to fix this for the toggler */
 .navbar-toggler-icon{
   background-color: #625772 !important;
+}
+
+.skill-type h3 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.skill-name {
+  text-align: left;
+}
+
+.skill-type {
+  text-align: right;
 }
 
 .title {
